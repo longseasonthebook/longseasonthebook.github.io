@@ -1,7 +1,190 @@
 body {
-    background-color: darkgreen;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #028a0f;
+    color: #028a0f;
 }
-h1 {
-    font-size: 30px;
-} 
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #028a0f;
+}
+
+header h1 {
+    color: #008000;
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #000000;
+}
+
+nav {
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #028a0f;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #23da35;
+}
+
+.hero {
+    background-image: url('your-hero-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.featured {
+    padding: 40px;
+    background-color: #028a0f;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.featured h3 {
+    font-size: 28px;
+}
+
+.featured p {
+    font-size: 18px;
+}
+
+.featured a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #028a0f;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .books, .blog, .contact {
+    padding: 40px;
+}
+
+.about {
+    background-color: #FFFFFF;
+}
+
+.books {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.book-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.book-item img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #028a0f;
+}
+
+.book-item:hover img {
+    filter: brightness(0.8);
+}
+
+.book-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.blog-post h4 {
+    margin: 10px 0;
+}
+
+.blog-post a {
+    color: #028a0f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #028a0f;
+    color: #FFFFFF;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #028a0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #028a0f;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #88ec7b;
+}
